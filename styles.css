@@ -1,24 +1,33 @@
 .container {
-  width: 70%;
+  width: 100%;
   margin: auto;
   text-align: center;
+  
+}
+.container2 {
+  width: 100%;
+ 
+  margin: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
 }
 
-.dice {
+/* .dice {
   text-align: center;
   display: inline-block;
-
-}
+} */
 
 body {
-  background-color: #141415;
+  background-color: #010115;
 }
 
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 6rem;
   color: #eafcf6;
 }
 
@@ -29,7 +38,7 @@ p {
 }
 
 img {
-  width: 80%;
+  width: 50%;
 }
 
 footer {
@@ -38,4 +47,9 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+@media screen and (max-width: 700px) {
+  .container2 {
+    flex-direction: column;
+  }
 }
