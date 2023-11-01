@@ -15,9 +15,9 @@
 }
 
  .dice {
+ 
   text-align: center;
   flex: 1;
-  flex-direction: row;
   display: inline-block;
 } 
 
@@ -50,3 +50,5 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+
